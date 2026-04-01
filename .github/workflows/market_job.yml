@@ -3,8 +3,8 @@ name: Indian Market Email Job
 on:
   schedule:
     - cron: "0 4 * * 1-5"    # 9:30 AM IST
-    - cron: "30 7 * * 1-5"   # 1:00 PM IST
-    - cron: "30 9 * * 1-5"   # 3:00 PM IST
+    - cron: "0 8 * * 1-5"    # 1:30 PM IST
+    - cron: "0 9 * * 1-5"    # 2:30 PM IST
   workflow_dispatch:
 
 jobs:
